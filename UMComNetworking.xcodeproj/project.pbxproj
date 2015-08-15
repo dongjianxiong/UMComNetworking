@@ -83,6 +83,7 @@
 		63D6AB6C1B2929B30062D344 /* UMComNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				63DB2A4F1B7EC8DF00A51222 /* Network  */,
 				63D6AB711B2929B30062D344 /* AppDelegate.h */,
 				63D6AB721B2929B30062D344 /* AppDelegate.m */,
 				63D6AB771B2929B30062D344 /* ViewController.h */,
@@ -120,6 +121,13 @@
 				63D6AB8B1B2929B30062D344 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63DB2A4F1B7EC8DF00A51222 /* Network  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Network ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,6 +430,7 @@
 				63D6AB921B2929B30062D344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63D6AB931B2929B30062D344 /* Build configuration list for PBXNativeTarget "UMComNetworkingTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +439,7 @@
 				63D6AB951B2929B30062D344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
