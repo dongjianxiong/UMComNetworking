@@ -15,6 +15,8 @@
 		63D6AB7E1B2929B30062D344 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D6AB7D1B2929B30062D344 /* Images.xcassets */; };
 		63D6AB811B2929B30062D344 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D6AB7F1B2929B30062D344 /* LaunchScreen.xib */; };
 		63D6AB8D1B2929B30062D344 /* UMComNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D6AB8C1B2929B30062D344 /* UMComNetworkingTests.m */; };
+		63DB2A521B7ECB5400A51222 /* UMURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB2A511B7ECB5400A51222 /* UMURLConnectionOperation.m */; };
+		63DB2A551B7ECB9200A51222 /* UMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB2A541B7ECB9200A51222 /* UMNetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		63D6AB861B2929B30062D344 /* UMComNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMComNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D6AB8B1B2929B30062D344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D6AB8C1B2929B30062D344 /* UMComNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMComNetworkingTests.m; sourceTree = "<group>"; };
+		63DB2A501B7ECB5400A51222 /* UMURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMURLConnectionOperation.h; sourceTree = "<group>"; };
+		63DB2A511B7ECB5400A51222 /* UMURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMURLConnectionOperation.m; sourceTree = "<group>"; };
+		63DB2A531B7ECB9200A51222 /* UMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMNetworkManager.h; sourceTree = "<group>"; };
+		63DB2A541B7ECB9200A51222 /* UMNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMNetworkManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,10 @@
 		63DB2A4F1B7EC8DF00A51222 /* Network  */ = {
 			isa = PBXGroup;
 			children = (
+				63DB2A501B7ECB5400A51222 /* UMURLConnectionOperation.h */,
+				63DB2A511B7ECB5400A51222 /* UMURLConnectionOperation.m */,
+				63DB2A531B7ECB9200A51222 /* UMNetworkManager.h */,
+				63DB2A541B7ECB9200A51222 /* UMNetworkManager.m */,
 			);
 			path = "Network ";
 			sourceTree = "<group>";
@@ -174,6 +184,7 @@
 		63D6AB621B2929B30062D344 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = UM;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = dongjianxiong;
 				TargetAttributes = {
@@ -232,8 +243,10 @@
 			files = (
 				63D6AB761B2929B30062D344 /* UMComNetworking.xcdatamodeld in Sources */,
 				63D6AB731B2929B30062D344 /* AppDelegate.m in Sources */,
+				63DB2A551B7ECB9200A51222 /* UMNetworkManager.m in Sources */,
 				63D6AB791B2929B30062D344 /* ViewController.m in Sources */,
 				63D6AB701B2929B30062D344 /* main.m in Sources */,
+				63DB2A521B7ECB5400A51222 /* UMURLConnectionOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
