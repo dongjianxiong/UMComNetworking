@@ -49,38 +49,6 @@
             endingLineNumber = "593"
             landmarkName = "-connection:didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite:"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[UMHTTPConnectionOperation connection:didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite:]"
-                  moduleName = "UMComNetworking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/umeng/Documents/TestDemo/UMComNetworking/UMComNetworking/Network%20/NSConnection/UMHTTPConnectionOperation.m"
-                  timestampString = "461205286.839751"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "593"
-                  endingLineNumber = "593"
-                  offsetFromSymbolStart = "95">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__100-[UMHTTPConnectionOperation connection:didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite:]_block_invoke"
-                  moduleName = "UMComNetworking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/umeng/Documents/TestDemo/UMComNetworking/UMComNetworking/Network%20/NSConnection/UMHTTPConnectionOperation.m"
-                  timestampString = "461205286.840041"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "593"
-                  endingLineNumber = "593"
-                  offsetFromSymbolStart = "12">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
