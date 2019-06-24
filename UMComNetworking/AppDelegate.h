@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  UMComNetworking
+//  SCMMutiTaskManager
 //
-//  Created by umeng on 15/6/11.
+//  Created by Lenny on 15/6/11.
 //  Copyright (c) 2015年 dongjianxiong. All rights reserved.
 //
 

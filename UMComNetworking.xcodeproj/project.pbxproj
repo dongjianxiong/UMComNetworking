@@ -15,8 +15,12 @@
 		63D6AB7E1B2929B30062D344 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D6AB7D1B2929B30062D344 /* Images.xcassets */; };
 		63D6AB811B2929B30062D344 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D6AB7F1B2929B30062D344 /* LaunchScreen.xib */; };
 		63D6AB8D1B2929B30062D344 /* UMComNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D6AB8C1B2929B30062D344 /* UMComNetworkingTests.m */; };
-		63DB2A521B7ECB5400A51222 /* UMURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB2A511B7ECB5400A51222 /* UMURLConnectionOperation.m */; };
-		63DB2A551B7ECB9200A51222 /* UMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB2A541B7ECB9200A51222 /* UMNetworkManager.m */; };
+		921BA95A21DB88B6005758E7 /* SCMMutiTaskQueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 921BA95821DB88B6005758E7 /* SCMMutiTaskQueueManager.m */; };
+		921BA95B21DB88B6005758E7 /* SCMTaskOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 921BA95921DB88B6005758E7 /* SCMTaskOperation.m */; };
+		921BA95E21DB89CE005758E7 /* SCMNetworkRquest.m in Sources */ = {isa = PBXBuildFile; fileRef = 921BA95D21DB89CE005758E7 /* SCMNetworkRquest.m */; };
+		921BA96221DC8ED4005758E7 /* SCMSafeMutibleDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 921BA96121DC8ED4005758E7 /* SCMSafeMutibleDictionary.m */; };
+		92995432221E593C00ABB4E5 /* SCMDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 92995431221E593C00ABB4E5 /* SCMDownloader.m */; };
+		92FB5CBC21DD1EED00C020FF /* SCMSafeMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FB5CBB21DD1EED00C020FF /* SCMSafeMutableArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +48,18 @@
 		63D6AB861B2929B30062D344 /* UMComNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMComNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D6AB8B1B2929B30062D344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D6AB8C1B2929B30062D344 /* UMComNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMComNetworkingTests.m; sourceTree = "<group>"; };
-		63DB2A501B7ECB5400A51222 /* UMURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMURLConnectionOperation.h; sourceTree = "<group>"; };
-		63DB2A511B7ECB5400A51222 /* UMURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMURLConnectionOperation.m; sourceTree = "<group>"; };
-		63DB2A531B7ECB9200A51222 /* UMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMNetworkManager.h; sourceTree = "<group>"; };
-		63DB2A541B7ECB9200A51222 /* UMNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMNetworkManager.m; sourceTree = "<group>"; };
+		921BA95621DB88B6005758E7 /* SCMMutiTaskQueueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMMutiTaskQueueManager.h; sourceTree = "<group>"; };
+		921BA95721DB88B6005758E7 /* SCMTaskOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMTaskOperation.h; sourceTree = "<group>"; };
+		921BA95821DB88B6005758E7 /* SCMMutiTaskQueueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMMutiTaskQueueManager.m; sourceTree = "<group>"; };
+		921BA95921DB88B6005758E7 /* SCMTaskOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMTaskOperation.m; sourceTree = "<group>"; };
+		921BA95C21DB89CE005758E7 /* SCMNetworkRquest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMNetworkRquest.h; sourceTree = "<group>"; };
+		921BA95D21DB89CE005758E7 /* SCMNetworkRquest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMNetworkRquest.m; sourceTree = "<group>"; };
+		921BA96021DC8ED4005758E7 /* SCMSafeMutibleDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMSafeMutibleDictionary.h; sourceTree = "<group>"; };
+		921BA96121DC8ED4005758E7 /* SCMSafeMutibleDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMSafeMutibleDictionary.m; sourceTree = "<group>"; };
+		92995430221E593C00ABB4E5 /* SCMDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMDownloader.h; sourceTree = "<group>"; };
+		92995431221E593C00ABB4E5 /* SCMDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMDownloader.m; sourceTree = "<group>"; };
+		92FB5CBA21DD1EED00C020FF /* SCMSafeMutableArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMSafeMutableArray.h; sourceTree = "<group>"; };
+		92FB5CBB21DD1EED00C020FF /* SCMSafeMutableArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMSafeMutableArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +101,10 @@
 		63D6AB6C1B2929B30062D344 /* UMComNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				63DB2A4F1B7EC8DF00A51222 /* Network  */,
+				9299542F221E58F500ABB4E5 /* Downloader */,
+				92FB5CB921DD1DEC00C020FF /* SafeMutiArr */,
+				921BA95F21DC8ED3005758E7 /* SafeMutiDict */,
+				921BA95521DB88B6005758E7 /* MutiTask */,
 				63D6AB711B2929B30062D344 /* AppDelegate.h */,
 				63D6AB721B2929B30062D344 /* AppDelegate.m */,
 				63D6AB771B2929B30062D344 /* ViewController.h */,
@@ -129,15 +144,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		63DB2A4F1B7EC8DF00A51222 /* Network  */ = {
+		921BA95521DB88B6005758E7 /* MutiTask */ = {
 			isa = PBXGroup;
 			children = (
-				63DB2A501B7ECB5400A51222 /* UMURLConnectionOperation.h */,
-				63DB2A511B7ECB5400A51222 /* UMURLConnectionOperation.m */,
-				63DB2A531B7ECB9200A51222 /* UMNetworkManager.h */,
-				63DB2A541B7ECB9200A51222 /* UMNetworkManager.m */,
+				921BA95621DB88B6005758E7 /* SCMMutiTaskQueueManager.h */,
+				921BA95821DB88B6005758E7 /* SCMMutiTaskQueueManager.m */,
+				921BA95721DB88B6005758E7 /* SCMTaskOperation.h */,
+				921BA95921DB88B6005758E7 /* SCMTaskOperation.m */,
+				921BA95C21DB89CE005758E7 /* SCMNetworkRquest.h */,
+				921BA95D21DB89CE005758E7 /* SCMNetworkRquest.m */,
 			);
-			path = "Network ";
+			path = MutiTask;
+			sourceTree = "<group>";
+		};
+		921BA95F21DC8ED3005758E7 /* SafeMutiDict */ = {
+			isa = PBXGroup;
+			children = (
+				921BA96021DC8ED4005758E7 /* SCMSafeMutibleDictionary.h */,
+				921BA96121DC8ED4005758E7 /* SCMSafeMutibleDictionary.m */,
+			);
+			path = SafeMutiDict;
+			sourceTree = "<group>";
+		};
+		9299542F221E58F500ABB4E5 /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				92995430221E593C00ABB4E5 /* SCMDownloader.h */,
+				92995431221E593C00ABB4E5 /* SCMDownloader.m */,
+			);
+			path = Downloader;
+			sourceTree = "<group>";
+		};
+		92FB5CB921DD1DEC00C020FF /* SafeMutiArr */ = {
+			isa = PBXGroup;
+			children = (
+				92FB5CBA21DD1EED00C020FF /* SCMSafeMutableArray.h */,
+				92FB5CBB21DD1EED00C020FF /* SCMSafeMutableArray.m */,
+			);
+			path = SafeMutiArr;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,12 +285,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92995432221E593C00ABB4E5 /* SCMDownloader.m in Sources */,
 				63D6AB761B2929B30062D344 /* UMComNetworking.xcdatamodeld in Sources */,
+				92FB5CBC21DD1EED00C020FF /* SCMSafeMutableArray.m in Sources */,
 				63D6AB731B2929B30062D344 /* AppDelegate.m in Sources */,
-				63DB2A551B7ECB9200A51222 /* UMNetworkManager.m in Sources */,
+				921BA95A21DB88B6005758E7 /* SCMMutiTaskQueueManager.m in Sources */,
+				921BA95B21DB88B6005758E7 /* SCMTaskOperation.m in Sources */,
+				921BA96221DC8ED4005758E7 /* SCMSafeMutibleDictionary.m in Sources */,
+				921BA95E21DB89CE005758E7 /* SCMNetworkRquest.m in Sources */,
 				63D6AB791B2929B30062D344 /* ViewController.m in Sources */,
 				63D6AB701B2929B30062D344 /* main.m in Sources */,
-				63DB2A521B7ECB5400A51222 /* UMURLConnectionOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

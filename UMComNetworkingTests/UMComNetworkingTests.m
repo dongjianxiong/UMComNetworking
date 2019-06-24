@@ -1,19 +1,19 @@
 //
-//  UMComNetworkingTests.m
-//  UMComNetworkingTests
+//  SCMMutiTaskManagerTests.m
+//  SCMMutiTaskManagerTests
 //
-//  Created by umeng on 15/6/11.
+//  Created by Lenny on 15/6/11.
 //  Copyright (c) 2015年 dongjianxiong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface UMComNetworkingTests : XCTestCase
+@interface SCMMutiTaskManagerTests : XCTestCase
 
 @end
 
-@implementation UMComNetworkingTests
+@implementation SCMMutiTaskManagerTests
 
 - (void)setUp {
     [super setUp];
